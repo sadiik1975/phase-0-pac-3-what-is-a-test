@@ -2,7 +2,7 @@ require ( './root.js' );
 
 const { name, height, message } = require("../index.js");
 
-/*
+
 describe('what-is-a-test', () => {
   describe('Name', () => {
     it('returns "Susan"', () => {
@@ -12,6 +12,8 @@ describe('what-is-a-test', () => {
 
 
   describe('Height', () => {
+    const height = 39; 
+
     it('is less than 40', () => {
       expect(height).toBeLessThan(40)
     })
@@ -24,7 +26,7 @@ describe('what-is-a-test', () => {
     })
   })
 })
-*/
+
 
 // The code below ensures that students who are using CodeGrade will get credit 
 // for the code-along in Canvas; you can disregard it.
